@@ -1,10 +1,6 @@
-*.class
-*.log
 .idea/
-.vscode/
 out/
-build/
-dist/
+*.class
 *.iml
 .DS_Store
 Thumbs.db
