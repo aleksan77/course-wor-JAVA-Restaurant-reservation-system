@@ -62,6 +62,11 @@ Compile:
 javac src/ReservationDeskGUI.java
 ```
 
+## Run Application
+
+Download the JAR file and run:
+
+java -jar RestaurantReservationSystem.jar
 Run:
 
 ```bash
