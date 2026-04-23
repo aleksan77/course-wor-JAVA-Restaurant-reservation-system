@@ -79,9 +79,9 @@ restaurant-reservation-system/
 │── screenshots/
 ```
 
-## Screenshots
+## Screenshot
 
-Add screenshots of the running application inside the `screenshots` folder.
+![Main Window](screenshots/main-window.png)
 
 ## Author
 
