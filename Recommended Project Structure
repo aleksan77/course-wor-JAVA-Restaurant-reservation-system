@@ -1,1 +1,12 @@
-
+restaurant-reservation-system/
+│
+├── src/
+│   └── ReservationDeskGUI.java
+│
+├── README.md
+├── .gitignore
+│
+└── screenshots/
+    ├── main-window.png
+    ├── add-reservation.png
+    └── occupancy.png
