@@ -1,42 +1,88 @@
 # Restaurant Reservation System
 
-Desktop application for managing restaurant reservations, built with Java Swing and Object-Oriented Programming.
+Desktop GUI application for managing restaurant reservations, built with Java Swing.
 
-## Features
-- Add new reservations
-- Edit reservations
-- Delete reservations
-- Search by customer name
-- Filter by date and type
-- Indoor / Outdoor reservations
-- Capacity control (200 total seats)
-- Indoor hall: 120 seats
-- Outdoor area: 80 seats
-- Save reservations to file
-- Load reservations on startup
-- Occupancy tracking
+## Project Overview
 
-## Technologies
-- Java
-- Swing GUI
-- OOP
-- File Handling
+This application helps restaurant staff manage reservations quickly and efficiently through a graphical user interface.
+
+Users can add, edit, delete, search, and filter reservations while the system automatically checks seating capacity.
+
+## Main Features
+
+* Add new reservations
+* Edit selected reservations
+* Delete reservations
+* Search by customer name
+* Filter by reservation type
+* Filter by date
+* Save reservations to file
+* Load saved reservations automatically
+* Real-time occupancy tracking
+
+## Reservation Areas
+
+### Indoor Reservations
+
+* Table number
+* Seating type:
+
+  * Standard Table
+  * Booth
+  * Long Table
+
+### Outdoor Reservations
+
+* Garden
+* Terrace
+* Smoking section
+* Non-smoking section
+
+## Capacity Control
+
+* Total restaurant capacity: **200 seats**
+* Indoor hall: **120 seats**
+* Outdoor area: **80 seats**
+
+The system prevents overbooking automatically.
+
+## Technologies Used
+
+* Java
+* Java Swing
+* Object-Oriented Programming
+* File Handling
+* IntelliJ IDEA
 
 ## How to Run
-1. Install Java JDK 8+
-2. Compile:
-   javac ReservationDeskGUI.java
-3. Run:
-   java ReservationDeskGUI
+
+Compile:
+
+```bash
+javac src/ReservationDeskGUI.java
+```
+
+Run:
+
+```bash
+java -cp src ReservationDeskGUI
+```
 
 ## Project Structure
-ReservationDeskGUI.java
-reservations.txt
-README.md
-.gitignore
+
+```text
+restaurant-reservation-system/
+│── src/
+│   └── ReservationDeskGUI.java
+│── README.md
+│── .gitignore
+│── screenshots/
+```
 
 ## Screenshots
-Add screenshots here after running the app.
+
+Add screenshots of the running application inside the `screenshots` folder.
 
 ## Author
-Created by Aleksandra Kolarowa, student from Techbical University Sofiq, Plovdiv Branch
+
+Created Aleksandra Kolarova, student from Technical University Sofia, Plovdiv branch
